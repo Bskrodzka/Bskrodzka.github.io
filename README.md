@@ -1,2 +1,2 @@
 # Bskrodzka.github.io
-Personal site
+Personal page

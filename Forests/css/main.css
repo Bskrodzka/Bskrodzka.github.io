@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    font-family: Yanone Kaffeesatz;
+    position: relative;
+}
+
+h3 {
+    letter-spacing: 2px; 
+    font-size: 130%;
+
+    padding: 50px 0 10px;
+}
+
+/******FONTS***********/
+    .font1 {
+        font-weight: lighter;
+        color: white;
+        text-indent: 50px;
+        word-spacing: 30px;
+        font-size: 100%;
+    }
+
+    .font2 {
+        font-weight: lighter;
+        color: white;
+        text-indent: 50px;
+        word-spacing: 30px;
+        text-transform: uppercase;
+    }
+
+    .font3 {
+        font-weight: bold;
+        font-size: 220%;
+        color: #585858;
+    }
+
+    .font4 {
+        font-weight: bold;
+        font-size: 220%;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .font5 {
+        font-weight: lighter;
+        color: #585858;
+        font-size: 120%;
+    }
+
+    .font6 {
+        font-weight: bold;
+        color: #585858;
+        font-size: 200%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .font7 {
+        font-weight: lighter;
+        color: #585858;
+        font-size: 130%;
+        letter-spacing: 1px;
+    }
+
+    .font8 {
+        font-weight: lighter;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+
+    .font9 {
+        font-weight: lighter;
+        color: white;
+        font-size: 80%;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+
+    .font10 {
+        font-weight: lighter;
+        color: white;
+        font-size: 160%;
+        letter-spacing: 1px;
+    }
+/**********************/
+
+#header {
+    background-color: rgb(0, 0, 0);
+    
+    margin: 0px;
+    padding: 5px;
+    
+    height: 40px;
+    width: 100%;
+    
+    position: fixed;
+    z-index: 100;
+}
+
+.headerLinksLeft {
+    float: left;
+    margin-left: -30px;
+
+    position: relative;
+    top: 30%;
+}
+
+.headerLinksRight {
+    position: relative;
+    top: 25%;
+    right: 20px; 
+    float: right;
+}
+
+@media (max-width: 590px) {
+    .headerLinksRight {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .headerLinksLeft {
+        display: none;
+    }
+}
+
+.textBlock1 {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 100px 20px 0;
+}
+
+.textHelp {
+    text-align: center;
+    padding: 100px 0 100px;
+}
+
+.myButton {
+    background-color:#8A8A8A;
+
+    -moz-border-radius:17px;
+    -webkit-border-radius:17px;
+    border-radius:17px;
+
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:12px 28px;
+    text-decoration:none;
+
+    border: 0;
+}
+.myButton:hover {
+    background-color:#A1A1A1;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+.tekst8 {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+
+.tekst9 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.tekst10 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 20%;
+}
+
+#picture01 {
+    background-image: url("../img/las.jpg");
+    height: 600px;
+}
+
+#picture02 {
+    background-image: url("../img/mech.jpg");
+    height: 330px;
+}
+
+.pictures {
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#picture01 .pic01text01 {
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+
+#picture01 .pic01text02 {
+    position: relative;
+    top: 30%;
+    left: 25%;
+}
+
+@media (max-width: 920px) {
+    #picture01 .pic01text01 {
+        left: 0%;
+        text-align: center;
+    }
+
+    #picture01 .pic01text02 {
+        left: 0%;
+        text-align: center;
+    }
+}
+
+.box3 {
+    background-color: black;
+    margin: 0px;
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*margin-top: 50px;*/
+}
+
+.logo {
+    width: 25px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.ex2:hover,
+a.ex2:active {
+    font-size: 120%;
+}
+
+a.ex5:hover,
+a.ex5:active {
+    text-decoration: underline;
+}
+
+.pressPictures {
+    padding: 50px 0 0;
+    width: 80%;
+    margin: 0 auto;
+
+    
+    text-align: center;
+}
+
+.pressBear {
+    background-image: url("../img/mis.jpg");
+}
+
+.pressWolf {
+    background-image: url("../img/wilk2.png");
+}
+
+.pressDeer {
+    background-image: url("../img/los.jpg");
+}
+
+.pressablePic {
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    cursor: pointer;
+
+    display: inline-block;
+
+    background-size: cover;
+    transition: border 0.5s;
+}
+
+.pressablePic p {
+    height: 100%;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.pressablePic p:hover {
+    opacity: 1;
+}
+
+.pressablePic:hover,
+.pressablePic:active {
+    border: 5px solid gray;
+}
