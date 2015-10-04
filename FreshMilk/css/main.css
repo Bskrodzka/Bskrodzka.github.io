@@ -1,0 +1,302 @@
+* {
+    font-family: Roboto;
+    position: relative;
+    margin: 0;
+}
+
+#header {
+    background-color: white;
+    margin: 0px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.box2 {
+    background-color: #D8D8D8;
+    margin: 0px;
+    height: 700px;
+    width: 100%;
+}
+
+.alignHorizontal {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.alignVertical {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.box3 {
+    display: inline-block;
+    max-width:800px;
+    top: 60px
+}
+
+.box3 div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 900px) {
+    .box3 {
+        width: 85%;   
+    }
+}
+
+.myimg {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    /*margin-top: 50px;*/
+}
+
+.boxWood {
+    background-image: url("../img/wood.png");
+    background-size: cover;
+    background-position: center center;
+    
+    height: 500px;
+    padding-top: 150px;
+}
+
+.img2 {
+    position: absolute;    
+    
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+/*    margin-left: 39%;*/
+    z-index: 1;
+}
+
+.img3 {
+    width: 100%;
+    height: 120%;
+    position: relative;
+    /*margin-top: 50px;*/
+}
+
+.img4 {
+    width: 100%;
+
+}
+
+.logo {
+    height: 80%;
+    margin-left: 4%;
+    float: left;
+}
+
+.logo2 {
+    height: 60%;
+    margin-right: 4%;
+    float: right;
+}
+
+.tekst1 {
+    top: 150px;
+    text-align: center;    
+}
+
+.tekst2 {
+    font-weight: bold;
+    font-size: 100%;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    top: 150px;
+}
+
+.tekst3 {
+    font-weight: bold;
+    color: black;
+    text-indent: 50px;
+    word-spacing: 30px;
+    float: left;
+    margin: 0;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+
+.smalls img {
+    height: 80px;   
+    padding-bottom: 10px;
+}
+
+.tekst4 {
+    font-weight: bold;
+    font-size: 100%;
+    color: #A0A0A0;
+    position: relative;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    top: 10px;
+}
+
+.tekst5 {
+    font-size: 75%;
+    color: #C5B358;
+    letter-spacing: 1px;
+    line-height: 120%;
+    margin-left:47%;
+    margin-right: 25%;
+    
+    
+}
+
+#preLoader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url("Preloader_11.gif") center no-repeat #fff;
+    ;
+    z-index: 9999;
+}
+
+.small_divs {
+    display: inline-block;
+        
+    padding-top: 60px;
+    
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    height: 130px;
+    width: 100%;
+    background-color: #7b7a7a;
+    font-size: 80%;
+}
+
+.smalls {
+    width:150px;
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bigCow {
+    width: 27%;
+    min-width: 230px;
+    max-width: 130px;
+    display: inline-block;
+    margin-left:24%;
+    float:left;
+
+
+
+
+}
+
+@media (max-width: 800px) {
+    .bigCow {
+        /*float: none;*/
+    }
+}
+
+
+
+.leftFooter p {
+    color: white;
+    padding-top: 7px;
+}
+
+.smalls p {
+    color: white;
+    font-size: 80%;
+}
+
+.someBox {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tekst6 {
+    text-align: center;
+}
+
+.font0 {
+    font-weight: bold;
+    font-size: 500%;
+    color: black;
+    letter-spacing: 6px;
+}
+
+.font1 {
+    font-weight: bold;
+    font-size: 220%;
+    color: black;
+    letter-spacing: 3px;
+    }
+
+.tekst7 {
+    text-align: center;
+}
+
+.static {
+    position: static;
+}
+
+.noShadow {
+    box-shadow: none;
+}
+
+.myChanges {
+    float: left;
+    width: 33.333% !important;
+    box-shadow: none !important;
+}
+
+.myChanges * {
+    position: static;
+}
+
+@media (max-width: 900px) {
+    .myChanges {
+        width: 50% !important;   
+    }
+}
+
+.font17 {
+    font-size: 170%;
+    margin-left: 47%;
+    line-height: 90%;
+}
+
+.font18 {
+    color: gray;
+    line-height: 250%;
+    margin-left: 47%;
+    font-size: 90%;
+}
+
+.copy{
+    color: white;
+    font-size: 80%;
+    margin-left: 85%;
+
+ }
+
+.bottomCow {
+    margin: 90px;
+    margin-bottom: 100px;
+}
+
+.bottomText {
+/*    display: inline;*/
+    margin-left: 220px;
+}
+
+
+

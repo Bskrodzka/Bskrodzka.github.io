@@ -146,11 +146,30 @@ body {
 
 	}
 
+	#preLoader {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: url("Preloader_11.gif") center no-repeat #fff;
+		z-index: 9999;
+	}
+
 	</style>
+
+	<script type="text/javascript">
+	window.onload = function() {
+		var elm = document.getElementById("preLoader");
+		elm.parentNode.removeChild(elm);
+	}
+	</script>
 
 </head>
 
 <body>
+
+<div id="preLoader"></div>
 
 <div class="box1">
 

@@ -1,417 +1,371 @@
 <!DOCTYPE html>
 <html>
+
 <head>
- <link rel="stylesheet" type="text/css" href="OriginalHoverEffects/css/style_common.css">
-
- <link rel="stylesheet" type="text/css" href="ihover.css">
-
- <link rel="stylesheet" type="text/css" href="csshake.min.css">
- <style type="text/css">
-
- body {
- 	margin: 0;
- }
-
- .tekst{
-
- 	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: white;
- 	text-indent: 50px;
- 	word-spacing: 30px;
- 	float:left;
- 	margin-left:-30px;
- 	font-size: 100%;
-	}
-
-
- 	.tekst2{
- 	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: white;
- 	text-indent: 50px;
- 	word-spacing: 30px;
- 	margin-right: 20px;
- 	text-transform: uppercase;
- 	text-align: right;
- 	}
-
- 	.tekst3{
- 	font-family: Yanone Kaffeesatz;
- 	font-weight: bold;
- 	font-size: 120%;
- 	color: #585858 ;
- 	position: absolute;
- 	top:200px;
-   	left: 400px;
-   	position: absolute;
-	}
-
-	.tekst4{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: bold;
- 	font-size: 120%;
- 	color: white;
- 	text-transform: uppercase;
- 	letter-spacing: 2px;
- 	position: absolute;
- 	top:250px;
-   	left: 500px;
-	}
-
-	.tekst5{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: #585858;
- 	font-size: 120%;
- 	position: relative;
- 	left: 200px;
- 	top:50px;
- 	margin-right: 400px;
-	}
-
-	.tekst6{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: bold;
- 	color: #585858;
- 	font-size: 200%;
- 	text-transform: uppercase;
- 	letter-spacing: 1px;
- 	position: relative;
- 	top:70px;
-	}
-
-
-	.tekst7{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: #585858;
- 	font-size: 130%;
- 	letter-spacing: 1px;
- 	position: relative;
- 	top:70px;
- 	}
-
- 	.tekst8{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: white;
- 	word-spacing: 5px;
- 	letter-spacing: 1px;
- 	text-align: left;
- 	margin-left: 20px;
- 	float: left;
- 	}
-
-
- 	.tekst9{
-	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: white;
- 	font-size: 80%;
- 	word-spacing: 5px;
- 	letter-spacing: 1px;
- 	text-align: left;
- 	margin-right: 20px;
- 	float: right;
- 	}
-
- 	.tekst10{
- 	font-family: Yanone Kaffeesatz;
- 	font-weight: lighter;
- 	color: white;
- 	font-size: 160%;
- 	letter-spacing: 1px;
- 	text-align: left;
- 	margin-left: 100px;
- 	margin-top: -300px;
- 	position: absolute;
-	}
-
- 	.box1{
- 	background-color:black;
-    margin:0px;
-    height:40px;
-    padding:5px;
-    width: 100%;
-   	position: fixed;
-   	z-index:1;
+    <link rel="stylesheet" type="text/css" href="OriginalHoverEffects/css/style_common.css">
+    <link rel="stylesheet" type="text/css" href="ihover.css">
+    <style type="text/css">
+    body {
+        margin: 0;
     }
-
-
- 	.box3{
- 	background-color:black;
-    margin:0px;
-    height: 120px;
-    padding:10px;
-    width:100%;
-    position: relative;
-    top: 140px;
- 	}
-
- 	.img{
- 	width: 100%;
- 	height: 100%;
- 	position: relative;
- 	/*margin-top: 50px;*/
- 	 
- 	}
-
- 	.img2{
- 	width: 100%;
- 	height: 400px;
- 	}
-
- 	.img4{
- 	width: 100%;
- 	height: 500px;
- 	position: relative;
- 	top: 150px;
-	}
-
-	.logo{
-	width: 25px;
- 	height: 40px;
- 	margin-left:20px;
- 	float: left;
-	}
-
- 	.box2{
-    width: 100px;
-    height: 30px;
-  	background-color:#585858;
-	padding: 8px;
-	border-radius:20px;
-	font-family: Yanone Kaffeesatz;
- 	font-weight: bold;
- 	color: white;
- 	font-size: 120%;
- 	letter-spacing: 1px;
- 	position: relative;
- 	top:80px;
- 	text-transform: uppercase;
-
-
- 	}
-
- 	ul{
- 	list-style-type: none;
-    padding: 0;
- 	}
-
- 	li {
-    display: inline
-	}
-
-	a{
-	color:white;
-	text-decoration: none;
-	} 
-
-    a.ex2:hover, a.ex2:active 
-    {font-size: 120%;}
     
-    a.ex5:hover, a.ex5:active 
-    {text-decoration: underline;}
-
-    .img3Box{
-
- 	float: left;
- 	width: 100%;
- 	height: 350px;
- 	}
-
- 	.img3Box:hover {
-	float: left;
- 	width: 474px;
- 	height: 350px;
-	opacity : 0.30;
-	filter: alpha(opacity=30;
-	}
-
-	  
-
-	
-</style>
-
-<div class="box1">
-
-<div>
-
-	<a href="http://en.wikipedia.org/wiki/Deer">
-		<img src="deer4.jpg" class="logo">
-	</a>
-
-</div>
-
-<div class="tekst">
-	<ul>
-		<li><a class="ex5" href="#myForest"> Forests</a></li>
-		<li><a class="ex5" href="#myAnimals"> Animals</a></li>
-		<li><a class="ex5" href="#myProblems"> Problems</a></li>
-		<li><a class="ex5" href="#myDonate"> Donate</a></li>
-		<li><a class="ex5" href="#myContact"> Contact</a></li>
-
-	</ul>
-</div>
-
-
-
-
-
-<div>
-	<p class="tekst2" > Pl Fr En</p>
-	
-</div>
-</div>
-
-
-
-
-<div>
-	
-	<img src="las.jpg" class="img">
-	<div class="tekst3"><h1>Forest is our home</h1></div>
-	<div class="tekst4"><h2>Let us to live in it</h2></div>
-
-</div>
-
-
-
-
-<div class="tekst5" >
-
-	
-	<h3 id="myForest" style="letter-spacing: 2px; padding-top:100px; margin-top:0px; font-size: 130%" > Forests</h3>
-
-	<p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. </p>
-	<br>
-	<h3 style="letter-spacing: 2px; font-size: 130%" > Animals</h3>
-
-	<p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. 
-
-	</p>
-	<div >
-		<a name="myProblems" ></a>
-	</div>
-	
-	<br> 
-	<h3 style="letter-spacing: 2px; font-size: 130%"> Problems </h3>
-
-	<p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. </p>
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<style type="text/css">
-	.ih-item.square {
-		width: 33%;
-		height: 270px;
-
-	}
-</style>
-
-<div >
-
-	<div class="ih-item square effect6 from_top_and_bottom" style="float:left;" ><a href="#">
-        <div class="img"><img src="mis.jpg" alt="img"></div>
-        <div class="info">
-          <h3>Bears</h3>
-          <p>Only 1453 left</p>
-        </div></a></div>
+    .tekst {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: white;
+        text-indent: 50px;
+        word-spacing: 30px;
+        float: left;
+        margin-left: -30px;
+        font-size: 100%;
+    }
+    
+    .tekst2 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: white;
+        text-indent: 50px;
+        word-spacing: 30px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    
+    .tekst3 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: bold;
+        font-size: 120%;
+        color: #585858;
+        position: absolute;
+        top: 200px;
+        left: 400px;
+        position: absolute;
+    }
+    
+    .tekst4 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: bold;
+        font-size: 120%;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+    }
+    
+    .tekst5 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: #585858;
+        font-size: 120%;
+        position: relative;
+        left: 200px;
+        top: 50px;
+        margin-right: 400px;
+    }
+    
+    .tekst6 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: bold;
+        color: #585858;
+        font-size: 200%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .tekst7 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: #585858;
+        font-size: 130%;
+        letter-spacing: 1px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .tekst8 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .tekst9 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: white;
+        font-size: 80%;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    .tekst10 {
+        font-family: Yanone Kaffeesatz;
+        font-weight: lighter;
+        color: white;
+        font-size: 160%;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-left: 100px;
+        margin-top: -300px;
+        position: absolute;
+    }
+    
+    .box1 {
+        background-color: black;
+        margin: 0px;
+        height: 40px;
+        padding: 5px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .box3 {
+        background-color: black;
+        margin: 0px;
+        height: 120px;
+        padding: 10px;
+        width: 100%;
+        position: relative;
+        top: 140px;
+    }
+    
+    .img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        /*margin-top: 50px;*/
+    }
+    
+    .img2 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .img4 {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 150px;
+    }
+    
+    .logo {
+        width: 25px;
+        height: 40px;
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .box2 {
+        width: 100px;
+        height: 30px;
+        background-color: #585858;
+        padding: 8px;
+        border-radius: 20px;
+        font-family: Yanone Kaffeesatz;
+        font-weight: bold;
+        color: white;
+        font-size: 120%;
+        letter-spacing: 1px;
+        position: relative;
+        top: 80px;
+        text-transform: uppercase;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        display: inline
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a.ex2:hover,
+    a.ex2:active {
+        font-size: 120%;
+    }
+    
+    a.ex5:hover,
+    a.ex5:active {
+        text-decoration: underline;
+    }
+    
+    .img3Box {
+        float: left;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .img3Box:hover {
+        float: left;
+        width: 474px;
+        height: 350px;
+        opacity: 0.30;
+        filter: alpha(opacity=30;
+    }
+    
+    #preLoader {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        background: url("Preloader_11.gif") center no-repeat #fff;
+        z-index: 9999;
+    }
+    </style>
+    <script type="text/javascript">
+    window.onload = function() {
+        var elm = document.getElementById("preLoader");
+        //elm.parentNode.removeChild(elm);
+    }
+    </script>
+</head>
+<bodPy>
+    <div id="preLoader"></div>
+    <div class="box1">
+        <div>
+            <a href="http://en.wikipedia.org/wiki/Deer">
+                <img src="deer4.jpg" class="logo">
+            </a>
+        </div>
+        <div class="tekst">
+            <ul>
+                <li><a class="ex5" href="#myForest"> Forests</a></li>
+                <li><a class="ex5" href="#myAnimals"> Animals</a></li>
+                <li><a class="ex5" href="#myProblems"> Problems</a></li>
+                <li><a class="ex5" href="#myDonate"> Donate</a></li>
+                <li><a class="ex5" href="#myContact"> Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="tekst2"> Pl Fr En</p>
+        </div>
+    </div>
+    <div>
+        <img src="las.jpg" class="img">
+        <div class="tekst3">
+            <h1>Forest is our home</h1></div>
+        <div class="tekst4">
+            <h2>Let us to live in it</h2></div>
+    </div>
+    <div class="tekst5">
+        <h3 id="myForest" style="letter-spacing: 2px; padding-top:100px; margin-top:0px; font-size: 130%"> Forests</h3>
+        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. </p>
+        <br>
+        <h3 style="letter-spacing: 2px; font-size: 130%"> Animals</h3>
+        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing.
+        </p>
+        <div>
+            <a name="myProblems"></a>
+        </div>
+        <br>
+        <h3 style="letter-spacing: 2px; font-size: 130%"> Problems </h3>
+        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <style type="text/css">
+    .ih-item.square {
+        width: 33%;
+        height: 270px;
+    }
+    </style>
+    <div>
+        <div class="ih-item square effect6 from_top_and_bottom" style="float:left;">
+            <a href="#">
+                <div class="img"><img src="mis.jpg" alt="img"></div>
+                <div class="info">
+                    <h3>Bears</h3>
+                    <p>Only 1453 left</p>
+                </div>
+            </a>
+        </div>
+        <!-- end normal -->
+    </div>
+    <div class="ih-item square effect6 from_top_and_bottom" style="float:left;">
+        <a href="#">
+            <div class="img"><img src="wilk2.png" alt="img" height="200px"></div>
+            <div class="info">
+                <h3>Wolfs</h3>
+                <p>Description goes here</p>
+            </div>
+        </a>
+    </div>
     <!-- end normal -->
- 
-  </div>
-	 
-	 <div class="ih-item square effect6 from_top_and_bottom" style="float:left;" ><a href="#">
-        <div class="img"><img src="wilk2.png" alt="img" height="200px"></div>
-        <div class="info">
-          <h3>Wolfs</h3>
-          <p>Description goes here</p>
-        </div></a></div>
+    </div>
+    <div class="ih-item square effect6 from_top_and_bottom" style="float:left;">
+        <a href="#">
+            <div class="img"><img src="los.jpg" alt="img"></div>
+            <div class="info">
+                <h3>Mooses</h3>
+                <p>Description goes here</p>
+            </div>
+        </a>
+    </div>
     <!-- end normal -->
- 
-  </div>
+    </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div>
+        <center>
+            <h1 class="tekst6"> You can Help us</h1>
+            <p class="tekst7"> Just <b>2&#8364</b> can saves <b>forests in Europ</b></p>
+            <a class="ex2" href="http://www.wwf.org.uk/how_you_can_help/campaign_with_us/forest_campaign/" target="blank">
+                <p class="box2"> Donate</p>
+            </a>
+        </center>
+    </div>
+    <div>
+        <img src="mech.jpg" class="img4">
+        <q class="tekst10">Build a future where people live in harmony with nature</q>
+    </div>
+    <div class="box3">
+        <p class="tekst8">
+            <b>tel:</b>
+            <br>
+            <b>email:</b>
+            <br>
+            <b>adress:</b>
+            <br>
+        </p>
+        <p class="tekst8" style="margin-left:5px">
+            505 489 052
+            <br> basia.skrodzka@gmail.com
+            <br> ul. Adampolska 5/20
+            <br> 03-913 Warsaw
+            <br> Poland
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="tekst9">
+            &#9400; 2015 Barbara Skrodzka
+        </p>
+    </div>
+    </body>
 
-  <div class="ih-item square effect6 from_top_and_bottom" style="float:left;" ><a href="#">
-        <div class="img"><img src="los.jpg" alt="img"></div>
-        <div class="info">
-          <h3>Mooses</h3>
-          <p>Description goes here</p>
-        </div></a></div>
-    <!-- end normal -->
- 
-  </div>
-
-</div>
-
-<div style="clear:both;"></div>
-
-
-
-<div >
-
-
-	<center>
-
-		<h1 class="tekst6"> You can Help us</h1>
-
-		<p class="tekst7"> Just <b>2&#8364</b> can saves <b>forests in Europ</b></p>
-
-		<a class="ex2" href="http://www.wwf.org.uk/how_you_can_help/campaign_with_us/forest_campaign/" target="blank"> <p class="box2"> Donate</p></a>
-
-	</center>
-
-
-</div>
-
-
-<div>
-	<img src="mech.jpg" class="img4">
-	<q class="tekst10">Build a future where people live in harmony with nature</q>
-
-</div>
-
-
-
-<div class="box3"> 
-
-	<p class="tekst8">
-	<b>tel:</b> <br>
-	<b>email:</b> <br>
-	<b>adress:</b> <br>
-	
-	</p>
-
-	<p class="tekst8" style="margin-left:5px">
-	505 489 052<br>
-	basia.skrodzka@gmail.com<br>
-	ul. Adampolska 5/20<br>
-	03-913 Warsaw<br>
-	Poland
-	
-	</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-	<p class="tekst9">
-	&#9400; 2015 Barbara Skrodzka
-		
-
-	</p>
-	
-
-</div>
-
-
-
-
-</body>
 </html>
