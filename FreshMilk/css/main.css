@@ -84,7 +84,10 @@
 
 .img4 {
     width: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 
 .logo {
@@ -142,12 +145,19 @@
 }
 
 .tekst5 {
+<<<<<<< HEAD
     font-size: 75%;
     color: #C5B358;
     letter-spacing: 1px;
     line-height: 120%;
     margin-left:47%;
     margin-right: 25%;
+=======
+    font-size: 70%;
+    color: #C5B358;
+    letter-spacing: 1px;
+    line-height: 120%;
+>>>>>>> origin/master
     
     
 }
@@ -176,7 +186,10 @@
     height: 130px;
     width: 100%;
     background-color: #7b7a7a;
+<<<<<<< HEAD
     font-size: 80%;
+=======
+>>>>>>> origin/master
 }
 
 .smalls {
@@ -188,6 +201,7 @@
 
 .bigCow {
     width: 27%;
+<<<<<<< HEAD
     min-width: 230px;
     max-width: 130px;
     display: inline-block;
@@ -203,6 +217,12 @@
     .bigCow {
         /*float: none;*/
     }
+=======
+    min-width: 200px;
+    display: inline-block;
+    padding-right: 20px;
+    float: left;
+>>>>>>> origin/master
 }
 
 
@@ -226,6 +246,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .font0 {
     font-weight: bold;
     font-size: 500%;
@@ -233,12 +254,18 @@
     letter-spacing: 6px;
 }
 
+=======
+>>>>>>> origin/master
 .font1 {
     font-weight: bold;
     font-size: 220%;
     color: black;
     letter-spacing: 3px;
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> origin/master
 
 .tekst7 {
     text-align: center;
@@ -270,12 +297,16 @@
 
 .font17 {
     font-size: 170%;
+<<<<<<< HEAD
     margin-left: 47%;
     line-height: 90%;
+=======
+>>>>>>> origin/master
 }
 
 .font18 {
     color: gray;
+<<<<<<< HEAD
     line-height: 250%;
     margin-left: 47%;
     font-size: 90%;
@@ -291,6 +322,13 @@
 .bottomCow {
     margin: 90px;
     margin-bottom: 100px;
+=======
+    line-height: 200%;
+}
+
+.bottomCow {
+    margin: 90px;
+>>>>>>> origin/master
 }
 
 .bottomText {
