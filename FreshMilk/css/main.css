@@ -140,16 +140,6 @@
     top: 10px;
 }
 
-.tekst5 {
-    font-size: 80%;
-    color: #C5B358;
-    letter-spacing: 1px;
-    line-height: 120%;
-    margin-left: 45%;
-    margin-right: 30%;
-    
-    
-}
 
 #preLoader {
     position: fixed;
@@ -265,11 +255,28 @@
     }
 }
 
+
+.tekst5 {
+    font-size: 80%;
+    color: #C5B358;
+    letter-spacing: 1px;
+    line-height: 120%;
+    margin-left: 45%;
+    margin-right: 30%;
+    float: left;
+   
+    
+    
+}
+
+
+
 .font17 {
     font-size: 200%;
     line-height:60%;
     margin-left: 45%;
     margin-right: 30%;
+    float: left;
     
 
 }
@@ -280,6 +287,7 @@
     line-height: 250%;
     margin-left: 45%;
     margin-right: 30%;
+    float:left;
 }
 
 .basia{
@@ -290,6 +298,7 @@
 
 .bottomCow {
     margin: 90px;
+
 }
 
 .bottomText {
