@@ -182,11 +182,13 @@ h3 {
 
 #picture01 {
     background-image: url("../img/las.jpg");
+    width: 100%;
     height: 600px;
 }
 
 #picture02 {
     background-image: url("../img/mech.jpg");
+    width: 100%;
     height: 330px;
 }
 
