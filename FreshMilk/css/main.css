@@ -234,6 +234,8 @@ li:hover{
 
 @media (max-width: 800px) {
     .bigCow {
+
+        width: 20%;
         /*float: none;*/
     }
 }
@@ -334,20 +336,28 @@ li:hover{
 .basia{
     color: white;
     font-size:70%;
-    margin-left: 86%;
+    float:right;
+    margin-right: 6%;
     }
+
+@media (max-width: 400px) {
+    .basia {
+        float:left;
+    }
+}
+
 
 .bottomCow {
     margin-top: 90px;
-   
-  
-
     }
+
+
 
 
 @media (max-width: 600px) {
     .bottomCow {
         margin: 90px 10px;
+
     }
 }
 
