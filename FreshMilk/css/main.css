@@ -119,7 +119,7 @@ li:hover{
 }
 
 .logo {
-    height: 130%;
+    height: 120%;
     margin-left: 4%;
     float: left;
      margin-top: 15px
@@ -206,11 +206,12 @@ li:hover{
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 30px;
     height: 130px;
     width: 100%;
     background-color: #7b7a7a;
+    clear:both;
     
     
 }
@@ -228,15 +229,14 @@ li:hover{
     max-width: 120px;
     display: inline-block;
     padding-right: 50px;
-    margin-left: 30%;
-    float: left;
+    margin-left: 0%;
+    float:left;
 }
 
 @media (max-width: 800px) {
     .bigCow {
-
-        width: 20%;
         /*float: none;*/
+        margin-left: 50px;
     }
 }
 
@@ -312,16 +312,14 @@ li:hover{
     color: #C5B358;
     letter-spacing: 1px;
     line-height: 120%;
-    margin-right: 30%;
+    
     }
 
 
 
 .font17 {
     font-size: 200%;
-    margin-right: 30%;
-    
-    
+ 
 
     }
 
@@ -329,7 +327,7 @@ li:hover{
     color: gray;
     font-size: 100%;
     line-height: 200%;
-    margin-right: 30%;
+    
     
     }
 
@@ -338,6 +336,7 @@ li:hover{
     font-size:70%;
     float:right;
     margin-right: 6%;
+    height: auto;
     }
 
 @media (max-width: 400px) {
@@ -349,6 +348,11 @@ li:hover{
 
 .bottomCow {
     margin-top: 90px;
+    width: 600px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+
     }
 
 
@@ -356,7 +360,8 @@ li:hover{
 
 @media (max-width: 600px) {
     .bottomCow {
-        margin: 90px 10px;
+        margin-top: 10%;
+        width: 320px;     
 
     }
 }
@@ -366,5 +371,11 @@ li:hover{
     margin-left: 220px;
 }
 
+@media (max-width: 600px) {
+    .tekst18,.tekst17,.tekst5 {
+       float: left;
 
+
+    }
+}
 
