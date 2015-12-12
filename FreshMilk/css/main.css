@@ -341,15 +341,20 @@ li:hover{
     color: white;
     font-size:70%;
     float:right;
+    margin-top: -20px;
     margin-right: 6%;
     height: auto;
+
     }
 
 @media (max-width: 400px) {
     .basia {
         float:left;
+        
+    
     }
 }
+
 
 
 .bottomCow {
@@ -358,6 +363,8 @@ li:hover{
     background-color: none;
     margin-left: auto;
     margin-right: auto;
+    background-color: none;
+
 
     }
 
@@ -375,6 +382,8 @@ li:hover{
 .bottomText {
 /*    display: inline;*/
     margin-left: 220px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -383,5 +392,38 @@ li:hover{
 
 
     }
+}
+
+
+/****SOCIAL_ICONS****/
+
+
+
+.social-popout {
+    display: inline;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    float: left;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.social-popout img {
+    border-radius: 40%;
+    margin: 8px;
+    width: 90%;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+.social-popout img:hover {
+    margin: 0px;
+    box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
 }
 
