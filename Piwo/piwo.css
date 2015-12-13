@@ -148,9 +148,8 @@ nav label:before{
  	padding: 20px;
  	display: inline-block;
   float: left;
-  background-color:;
-  border-style: solid;
-    border-width: 1px;
+  background-color:#FFCC33;
+
 
  
   
@@ -429,17 +428,30 @@ p{
  background-color:black;
  clear:both;
  color: white;
+ padding: 20px;
 
 
 }
 
 .desc1{
   margin-top: 20px;
-  margin-left: 2%;
   font-family: Ayuthaya;
+  margin-left: 20px;
   font-weight: lighter;
   font-size: 12px;
   color: white;
+
+}
+
+.desc2{
+ 
+  font-family: Ayuthaya;
+  font-weight: lighter;
+  font-size: 10px;
+  color: white;
+  float: right;
+  margin-right: 3%;
+  margin-bottom: 0;
 
 }
 
@@ -449,10 +461,11 @@ p{
 
 
 .social-popout {
+    margin-left: 1%;
     display: inline;
     height: 30px;
     width: 30px;
-    margin: 5px;
+    margin: 6px;
     float: left;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
