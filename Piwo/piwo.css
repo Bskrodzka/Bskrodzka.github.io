@@ -142,7 +142,7 @@ nav label:before{
 /*****PRODUCTO PRINCIPAL*****/
 
 #boxleft{
-  margin-top: -50px;
+  margin-top:-60px;
  	width: 50%;
  	background: none;
  	padding: 20px;
@@ -167,6 +167,7 @@ nav label:before{
 
   @media (max-width: 640px) {
      #boxleft{
+      margin-top: -80px;
        width: 100%;
           
     }
@@ -274,8 +275,8 @@ h1{
 }
 
 h4{
-  font-family: Ayuthaya;
-  font-weight: lighter;
+  font-family: Roboto Mono;
+  font-weight: normal;
   font-size: 12px;
   color: black;
   margin-top: -10px;
@@ -293,8 +294,8 @@ h2{
 }
 
 .desc{
-  font-family: Ayuthaya;
-  font-weight: lighter;
+  font-family: Roboto Mono;
+  font-weight: normal;
   font-size: 12px;
   color: black;
   margin-top: 20px;
@@ -305,8 +306,8 @@ h2{
 .desc1{
   margin-top: 20px;
   margin-left: 2%;
-  font-family: Ayuthaya;
-  font-weight: lighter;
+  font-family: Roboto Mono;
+  font-weight: normal;
   font-size: 12px;
   color: white;
 
@@ -352,20 +353,35 @@ h2{
 
 /*****PRODUCTOS PARECIDOS*****/
 
+
+
+
+
+
+
+
+
 .box1{
-  width: 25%;
+  width: 27%;
   height: auto;
   margin-left: 4%;
   padding: 7px; 
   margin-top: 100px;
   display: inline-block;
-  margin-bottom: 90px;
-  background-color: ;
+  margin-bottom: 40px;
+  background-color:;
   float: left;
 
-  
-  
+}
 
+
+ @media (max-width: 640px) {
+     .box1{
+        width: 200px;
+        margin-left:20%;
+        margin-top: 40px;
+
+    }
 }
 
 .beer{
@@ -396,8 +412,8 @@ h2{
 
 
 h3{
-  font-family: Ayuthaya;
-  font-weight: lighter;
+  font-family: Roboto Mono;
+  font-weight: normal;
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
@@ -405,8 +421,8 @@ h3{
 
 
 p{
-  font-family:Ayuthaya;
-  font-weight: lighter;
+  font-family:Roboto Mono;
+  font-weight: normal;
   font-size: 12px;
   color: black;
   text-align: center;
@@ -423,7 +439,7 @@ p{
 .stopka{
 
  width: 100%;
- height: 160px;
+ height: 180px;
  padding: 10px;
  background-color:#1a1a1a;
  clear:both;
@@ -434,10 +450,10 @@ p{
 }
 
 .desc1{
-  margin-top: 20px;
-  font-family: Ayuthaya;
+  margin-top: 10px;
+  font-family: Roboto Mono;
   margin-left: 20px;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 12px;
   color: white;
 
@@ -445,14 +461,24 @@ p{
 
 .desc2{
  
-  font-family: Ayuthaya;
-  font-weight: lighter;
+  font-family: Roboto Mono;
+  font-weight: normal;
   font-size: 10px;
   color: white;
   float: right;
   margin-right: 3%;
   margin-bottom: 0;
 
+}
+
+
+  @media (max-width: 640px) {
+     .desc2{
+       float: left;
+       margin-left: 20px;
+       margin-top: 10px;
+          
+    }
 }
 
 
