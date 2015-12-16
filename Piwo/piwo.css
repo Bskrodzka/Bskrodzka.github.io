@@ -33,6 +33,24 @@ background-color: black;
 
 }
 
+.basket{
+ width: 38px;
+ height: auto;
+ float: right;
+ position: inherit;
+ margin-top: -40px;
+ margin-right: 3%;
+
+}
+  
+
+  @media (max-width: 880px) {
+     .basket{
+      margin-right: 10%;
+          
+    }
+}
+
 /***************** FONTS ********************/
 
 header{
@@ -97,14 +115,27 @@ nav label{
   display: none;
   width: 36px; 
   height: 36px; 
-  background: #FFCC33; 
+  background: ; 
   color: black; 
   text-align:left; 
   line-height: 36px;
   font-size: 1.6rem;
   border-radius: 4px;
+  padding: 2px;
 
 } 
+
+.menu{
+  padding-top: 4px;
+  margin: auto;
+  width: 36px;
+  height: 
+
+
+
+}
+
+
 nav label{position: absolute; top: 8px; right: 4px; transition: .4s;}
 nav label:hover{cursor:pointer;}
 nav label:before{
@@ -116,7 +147,10 @@ nav label:before{
 }
 
 /*************** MEDIA QUERIES *******************/
-@media only screen and (max-width: 840px){
+@media only screen and (max-width: 880px){
+
+
+
   nav ul{
   
     display: none; 
@@ -457,8 +491,18 @@ p{
 
 }
 
+.contact{
+  margin-top: 8px;
+  font-family: Roboto Mono;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+
+}
+
 .desc1{
-  margin-top: 10px;
+  margin-top: 5px;
   font-family: Roboto Mono;
   margin-left: 20px;
   font-weight: normal;
