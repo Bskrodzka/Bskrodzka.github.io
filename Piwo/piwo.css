@@ -295,11 +295,14 @@ nav label:before{
 }
 
 
- @media (max-width: 640px) {
+ @media (max-width: 660px) {
      #boxright{
-        height: 520px;
+        height: 600px;
+        margin-top: 20px;
+        margin-bottom: 40px;
         padding: 4%;
         width: 100%; 
+
         
        
     }
@@ -416,15 +419,27 @@ h2{
 
 
 
+ @media (max-width: 840px) {
+     .box1{
+  
+        margin-top: 40px;
+
+    }
+}
+
 
  @media (max-width: 640px) {
      .box1{
         width: 200px;
         margin-left:20%;
-        margin-top: 40px;
+       
 
     }
 }
+
+
+
+
 
 .beer{
   width: 70px;
@@ -481,7 +496,7 @@ p{
 .stopka{
 
  width: 100%;
- height: 160px;
+ height: 166px;
  padding: 10px;
  background-color:#1a1a1a;
  clear:both;
@@ -528,7 +543,7 @@ p{
      .desc2{
        float: left;
        margin-left: 20px;
-       margin-top: 10px;
+       margin-top: 4px;
           
     }
 }
