@@ -109,7 +109,7 @@ nav label{position: absolute; top: 8px; right: 4px; transition: .4s;}
 nav label:hover{cursor:pointer;}
 nav label:before{
   position: absolute;
-  background-image: url( Piwo/menu1.png);
+  background-image:url( Piwo/menu.png);
   z-index: 1;
   width: 20px;
   height: 20px;
